@@ -1,5 +1,8 @@
 {
-  "name": "react-skeleton",
+  "name": "@BatistaTony/react-skeleton",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/batistatone"
+  },
   "version": "0.0.1",
   "description": "A HOC that transform a component to a skeleton animation",
   "private": false,
