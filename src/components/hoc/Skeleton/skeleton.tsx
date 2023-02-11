@@ -2,7 +2,7 @@ import { ComponentType, useEffect, useRef } from "react";
 import { addClasses, clearValues, removeClasses } from "./helpers";
 import "./../../../styles/styles.css";
 
-type WrappedProps = {
+export type WrappedProps = {
   isLoading: boolean;
   skeletonFirstColor?: string;
   skeletonSecondColor?: string;

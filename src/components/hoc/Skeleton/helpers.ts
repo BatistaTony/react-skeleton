@@ -2,7 +2,7 @@ const TEXT_SKELETON_CLASSES = "skeleton skeleton-text skeleton-text-body";
 const TEXT_ID = "skeleton-text-example";
 const TEXT_REPETITION = 3;
 
-interface addClassesProps {
+export interface addClassesProps {
   container: HTMLDivElement;
   skeletonFirstColor?: string;
   skeletonSecondColor?: string;
